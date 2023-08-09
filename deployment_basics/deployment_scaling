@@ -1,0 +1,4 @@
+k scale deployment/my-first-deployment --replicas=3
+
+k get deployment my-first-deployment 
+

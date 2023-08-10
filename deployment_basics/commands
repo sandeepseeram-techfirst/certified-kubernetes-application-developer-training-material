@@ -9,4 +9,4 @@ controlplane $
 controlplane $ k get deployment my-first-deployment
 NAME                  READY   UP-TO-DATE   AVAILABLE   AGE
 my-first-deployment   0/1     1            0           1s
-controlplane $ 
+controlplane $  

@@ -16,4 +16,13 @@ controlplane $
 controlplane $ k get deployment my-first-deployment
 NAME                  READY   UP-TO-DATE   AVAILABLE   AGE
 my-first-deployment   3/2     3            3           3m29s
+controlplane $  
+
+
+controlplane $ k set image deployment my-first-deployment nginx=httpd:alpine
+deployment.apps/my-first-deployment image updated
+controlplane $ 
+controlplane $ k get deployment my-first-deployment
+NAME                  READY   UP-TO-DATE   AVAILABLE   AGE
+my-first-deployment   2/2     0            2           10m
 controlplane $ 

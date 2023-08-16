@@ -10,3 +10,7 @@ spec:
   selector:
     matchLabels:
       app: pricing-app
+  template:
+    metadata:
+      labels:
+        app: pricing-app

@@ -11,4 +11,11 @@ COPY . .
 WORKDIR "/src/LibraryService"
 COPY . .
 
+RUN dotnet build "LibraryService.csproj" -c Release -o /app/build -r linux-x64
 
+FROM build AS publish
+RUN dotnet publish "LibraryService.csproj" -c Release -o /app/publish -r linux-x64
+FROM base AS final
+WORKDIR /app
+COPY --from=publish /app/publish .
+ENTRYPOINT ["dotnet", "LibraryService.dll"]

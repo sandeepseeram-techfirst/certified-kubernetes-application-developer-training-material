@@ -14,3 +14,10 @@ spec:
     metadata:
       labels:
         app: pricing-app
+    spec:
+      containers:
+      - name: pricing-app
+        image: myregistry.azurecr.io/pricing-app:1.0
+        imagePullPolicy: IfNotPresent
+        ports:
+        - containerPort: 8080

@@ -14,7 +14,7 @@ spec:
     metadata:
       labels:
         app: pricing-app
-    spec:
+    spec: 
       containers:
       - name: pricing-app
         image: myregistry.azurecr.io/pricing-app:1.0

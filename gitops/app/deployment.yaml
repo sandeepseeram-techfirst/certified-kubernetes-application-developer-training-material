@@ -6,7 +6,7 @@ spec:
   selector:
     matchLabels:
       app: python-sample
-  template:
+  template: 
     metadata: 
       labels:
         app: python-sample

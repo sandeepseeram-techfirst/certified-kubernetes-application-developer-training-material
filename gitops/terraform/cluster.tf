@@ -16,7 +16,7 @@ resource "azurerm_kubernetes_cluster" "k8s" {
   location            = "eastus"
   resource_group_name = "sample-rg"
   dns_prefix          = "sample-k8s"
-
+ 
   default_node_pool {
     name            = "default" 
     node_count      = 2

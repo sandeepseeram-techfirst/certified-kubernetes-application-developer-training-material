@@ -1,0 +1,388 @@
+Get:1 http://security.ubuntu.com/ubuntu xenial-security InRelease [99.8 kB]
+Hit:2 http://archive.ubuntu.com/ubuntu xenial InRelease
+Get:3 http://archive.ubuntu.com/ubuntu xenial-updates InRelease [99.8 kB]
+Get:4 http://security.ubuntu.com/ubuntu xenial-security/main amd64 Packages [2052 kB]
+Get:5 http://archive.ubuntu.com/ubuntu xenial-backports InRelease [97.4 kB]
+Get:6 http://archive.ubuntu.com/ubuntu xenial-updates/main amd64 Packages [2560 kB]
+Get:7 http://security.ubuntu.com/ubuntu xenial-security/restricted amd64 Packages [15.9 kB]
+Get:8 http://security.ubuntu.com/ubuntu xenial-security/universe amd64 Packages [985 kB]
+Get:9 http://security.ubuntu.com/ubuntu xenial-security/multiverse amd64 Packages [8820 B]
+Get:10 http://archive.ubuntu.com/ubuntu xenial-updates/restricted amd64 Packages [16.4 kB]
+Get:11 http://archive.ubuntu.com/ubuntu xenial-updates/universe amd64 Packages [1545 kB]
+Get:12 http://archive.ubuntu.com/ubuntu xenial-updates/multiverse amd64 Packages [25.0 kB]
+Get:13 http://archive.ubuntu.com/ubuntu xenial-backports/main amd64 Packages [10.9 kB]
+Get:14 http://archive.ubuntu.com/ubuntu xenial-backports/universe amd64 Packages [12.7 kB]
+Fetched 7529 kB in 1s (3765 kB/s)
+Reading package lists...
+Reading package lists...
+Building dependency tree...
+Reading state information...
+gnupg is already the newest version (1.4.20-1ubuntu3.3).
+lsb-release is already the newest version (9.20160110ubuntu0.2).
+lsb-release set to manually installed.
+The following additional packages will be installed:
+  libcurl3-gnutls
+The following NEW packages will be installed:
+  apt-transport-https
+The following packages will be upgraded:
+  ca-certificates curl libcurl3-gnutls
+3 upgraded, 1 newly installed, 0 to remove and 162 not upgraded.
+Need to get 502 kB of archives.
+After this operation, 184 kB of additional disk space will be used.
+Get:1 http://archive.ubuntu.com/ubuntu xenial-updates/main amd64 curl amd64 7.47.0-1ubuntu2.19 [139 kB]
+Get:2 http://archive.ubuntu.com/ubuntu xenial-updates/main amd64 libcurl3-gnutls amd64 7.47.0-1ubuntu2.19 [189 kB]
+Get:3 http://archive.ubuntu.com/ubuntu xenial-updates/main amd64 apt-transport-https amd64 1.2.35 [26.6 kB]
+Get:4 http://archive.ubuntu.com/ubuntu xenial-updates/main amd64 ca-certificates all 20210119~16.04.1 [148 kB]
+Preconfiguring packages ...
+Fetched 502 kB in 0s (527 kB/s)
+(Reading database ... 
+(Reading database ... 5%
+(Reading database ... 10%
+(Reading database ... 15%
+(Reading database ... 20%
+(Reading database ... 25%
+(Reading database ... 30%
+(Reading database ... 35%
+(Reading database ... 40%
+(Reading database ... 45%
+(Reading database ... 50%
+(Reading database ... 55%
+(Reading database ... 60%
+(Reading database ... 65%
+(Reading database ... 70%
+(Reading database ... 75%
+(Reading database ... 80%
+(Reading database ... 85%
+(Reading database ... 90%
+(Reading database ... 95%
+(Reading database ... 100%
+(Reading database ... 31430 files and directories currently installed.)
+Preparing to unpack .../curl_7.47.0-1ubuntu2.19_amd64.deb ...
+Unpacking curl (7.47.0-1ubuntu2.19) over (7.47.0-1ubuntu2.12) ...
+Preparing to unpack .../libcurl3-gnutls_7.47.0-1ubuntu2.19_amd64.deb ...
+Unpacking libcurl3-gnutls:amd64 (7.47.0-1ubuntu2.19) over (7.47.0-1ubuntu2.12) ...
+Selecting previously unselected package apt-transport-https.
+Preparing to unpack .../apt-transport-https_1.2.35_amd64.deb ...
+Unpacking apt-transport-https (1.2.35) ...
+Preparing to unpack .../ca-certificates_20210119~16.04.1_all.deb ...
+Unpacking ca-certificates (20210119~16.04.1) over (20170717~16.04.2) ...
+Processing triggers for man-db (2.7.5-1) ...
+Processing triggers for libc-bin (2.23-0ubuntu10) ...
+Setting up libcurl3-gnutls:amd64 (7.47.0-1ubuntu2.19) ...
+Setting up curl (7.47.0-1ubuntu2.19) ...
+Setting up apt-transport-https (1.2.35) ...
+Setting up ca-certificates (20210119~16.04.1) ...
+Processing triggers for libc-bin (2.23-0ubuntu10) ...
+Processing triggers for ca-certificates (20210119~16.04.1) ...
+Updating certificates in /etc/ssl/certs...
+31 added, 50 removed; done.
+Running hooks in /etc/ca-certificates/update.d...
+done.
+OK
+Get:1 https://download.docker.com/linux/ubuntu xenial InRelease [66.2 kB]
+Hit:2 http://archive.ubuntu.com/ubuntu xenial InRelease
+Hit:3 http://security.ubuntu.com/ubuntu xenial-security InRelease
+Get:4 https://download.docker.com/linux/ubuntu xenial/stable amd64 Packages [23.9 kB]
+Hit:5 http://archive.ubuntu.com/ubuntu xenial-updates InRelease
+Hit:6 http://archive.ubuntu.com/ubuntu xenial-backports InRelease
+Fetched 90.1 kB in 0s (159 kB/s)
+Reading package lists...
+docker-ce:
+  Installed: (none)
+  Candidate: 5:20.10.7~3-0~ubuntu-xenial
+  Version table:
+     5:20.10.7~3-0~ubuntu-xenial 500
+        500 https://download.docker.com/linux/ubuntu xenial/stable amd64 Packages
+     5:20.10.6~3-0~ubuntu-xenial 500
+        500 https://download.docker.com/linux/ubuntu xenial/stable amd64 Packages
+     5:20.10.5~3-0~ubuntu-xenial 500
+        500 https://download.docker.com/linux/ubuntu xenial/stable amd64 Packages
+     5:20.10.4~3-0~ubuntu-xenial 500
+        500 https://download.docker.com/linux/ubuntu xenial/stable amd64 Packages
+     5:20.10.3~3-0~ubuntu-xenial 500
+        500 https://download.docker.com/linux/ubuntu xenial/stable amd64 Packages
+     5:20.10.2~3-0~ubuntu-xenial 500
+        500 https://download.docker.com/linux/ubuntu xenial/stable amd64 Packages
+     5:20.10.1~3-0~ubuntu-xenial 500
+        500 https://download.docker.com/linux/ubuntu xenial/stable amd64 Packages
+     5:20.10.0~3-0~ubuntu-xenial 500
+        500 https://download.docker.com/linux/ubuntu xenial/stable amd64 Packages
+     5:19.03.15~3-0~ubuntu-xenial 500
+        500 https://download.docker.com/linux/ubuntu xenial/stable amd64 Packages
+     5:19.03.14~3-0~ubuntu-xenial 500
+        500 https://download.docker.com/linux/ubuntu xenial/stable amd64 Packages
+     5:19.03.13~3-0~ubuntu-xenial 500
+        500 https://download.docker.com/linux/ubuntu xenial/stable amd64 Packages
+     5:19.03.12~3-0~ubuntu-xenial 500
+        500 https://download.docker.com/linux/ubuntu xenial/stable amd64 Packages
+     5:19.03.11~3-0~ubuntu-xenial 500
+        500 https://download.docker.com/linux/ubuntu xenial/stable amd64 Packages
+     5:19.03.10~3-0~ubuntu-xenial 500
+        500 https://download.docker.com/linux/ubuntu xenial/stable amd64 Packages
+     5:19.03.9~3-0~ubuntu-xenial 500
+        500 https://download.docker.com/linux/ubuntu xenial/stable amd64 Packages
+     5:19.03.8~3-0~ubuntu-xenial 500
+        500 https://download.docker.com/linux/ubuntu xenial/stable amd64 Packages
+     5:19.03.7~3-0~ubuntu-xenial 500
+        500 https://download.docker.com/linux/ubuntu xenial/stable amd64 Packages
+     5:19.03.6~3-0~ubuntu-xenial 500
+        500 https://download.docker.com/linux/ubuntu xenial/stable amd64 Packages
+     5:19.03.5~3-0~ubuntu-xenial 500
+        500 https://download.docker.com/linux/ubuntu xenial/stable amd64 Packages
+     5:19.03.4~3-0~ubuntu-xenial 500
+        500 https://download.docker.com/linux/ubuntu xenial/stable amd64 Packages
+     5:19.03.3~3-0~ubuntu-xenial 500
+        500 https://download.docker.com/linux/ubuntu xenial/stable amd64 Packages
+     5:19.03.2~3-0~ubuntu-xenial 500
+        500 https://download.docker.com/linux/ubuntu xenial/stable amd64 Packages
+     5:19.03.1~3-0~ubuntu-xenial 500
+        500 https://download.docker.com/linux/ubuntu xenial/stable amd64 Packages
+     5:19.03.0~3-0~ubuntu-xenial 500
+        500 https://download.docker.com/linux/ubuntu xenial/stable amd64 Packages
+     5:18.09.9~3-0~ubuntu-xenial 500
+        500 https://download.docker.com/linux/ubuntu xenial/stable amd64 Packages
+     5:18.09.8~3-0~ubuntu-xenial 500
+        500 https://download.docker.com/linux/ubuntu xenial/stable amd64 Packages
+     5:18.09.7~3-0~ubuntu-xenial 500
+        500 https://download.docker.com/linux/ubuntu xenial/stable amd64 Packages
+     5:18.09.6~3-0~ubuntu-xenial 500
+        500 https://download.docker.com/linux/ubuntu xenial/stable amd64 Packages
+     5:18.09.5~3-0~ubuntu-xenial 500
+        500 https://download.docker.com/linux/ubuntu xenial/stable amd64 Packages
+     5:18.09.4~3-0~ubuntu-xenial 500
+        500 https://download.docker.com/linux/ubuntu xenial/stable amd64 Packages
+     5:18.09.3~3-0~ubuntu-xenial 500
+        500 https://download.docker.com/linux/ubuntu xenial/stable amd64 Packages
+     5:18.09.2~3-0~ubuntu-xenial 500
+        500 https://download.docker.com/linux/ubuntu xenial/stable amd64 Packages
+     5:18.09.1~3-0~ubuntu-xenial 500
+        500 https://download.docker.com/linux/ubuntu xenial/stable amd64 Packages
+     5:18.09.0~3-0~ubuntu-xenial 500
+        500 https://download.docker.com/linux/ubuntu xenial/stable amd64 Packages
+     18.06.3~ce~3-0~ubuntu 500
+        500 https://download.docker.com/linux/ubuntu xenial/stable amd64 Packages
+     18.06.2~ce~3-0~ubuntu 500
+        500 https://download.docker.com/linux/ubuntu xenial/stable amd64 Packages
+     18.06.1~ce~3-0~ubuntu 500
+        500 https://download.docker.com/linux/ubuntu xenial/stable amd64 Packages
+     18.06.0~ce~3-0~ubuntu 500
+        500 https://download.docker.com/linux/ubuntu xenial/stable amd64 Packages
+     18.03.1~ce-0~ubuntu 500
+        500 https://download.docker.com/linux/ubuntu xenial/stable amd64 Packages
+     18.03.0~ce-0~ubuntu 500
+        500 https://download.docker.com/linux/ubuntu xenial/stable amd64 Packages
+     17.12.1~ce-0~ubuntu 500
+        500 https://download.docker.com/linux/ubuntu xenial/stable amd64 Packages
+     17.12.0~ce-0~ubuntu 500
+        500 https://download.docker.com/linux/ubuntu xenial/stable amd64 Packages
+     17.09.1~ce-0~ubuntu 500
+        500 https://download.docker.com/linux/ubuntu xenial/stable amd64 Packages
+     17.09.0~ce-0~ubuntu 500
+        500 https://download.docker.com/linux/ubuntu xenial/stable amd64 Packages
+     17.06.2~ce-0~ubuntu 500
+        500 https://download.docker.com/linux/ubuntu xenial/stable amd64 Packages
+     17.06.1~ce-0~ubuntu 500
+        500 https://download.docker.com/linux/ubuntu xenial/stable amd64 Packages
+     17.06.0~ce-0~ubuntu 500
+        500 https://download.docker.com/linux/ubuntu xenial/stable amd64 Packages
+     17.03.3~ce-0~ubuntu-xenial 500
+        500 https://download.docker.com/linux/ubuntu xenial/stable amd64 Packages
+     17.03.2~ce-0~ubuntu-xenial 500
+        500 https://download.docker.com/linux/ubuntu xenial/stable amd64 Packages
+     17.03.1~ce-0~ubuntu-xenial 500
+        500 https://download.docker.com/linux/ubuntu xenial/stable amd64 Packages
+     17.03.0~ce-0~ubuntu-xenial 500
+        500 https://download.docker.com/linux/ubuntu xenial/stable amd64 Packages
+Reading package lists...
+Building dependency tree...
+Reading state information...
+The following additional packages will be installed:
+  apparmor containerd.io docker-ce-cli docker-ce-rootless-extras
+  docker-scan-plugin iptables libapparmor-perl libnfnetlink0 libperl5.22
+  libseccomp2 perl perl-base perl-modules-5.22 pigz
+Suggested packages:
+  apparmor-profiles apparmor-profiles-extra apparmor-docs apparmor-utils
+  aufs-tools cgroupfs-mount | cgroup-lite perl-doc libterm-readline-gnu-perl
+  | libterm-readline-perl-perl
+Recommended packages:
+  slirp4netns
+The following NEW packages will be installed:
+  apparmor containerd.io docker-ce docker-ce-cli docker-ce-rootless-extras
+  docker-scan-plugin iptables libapparmor-perl libnfnetlink0 pigz
+The following packages will be upgraded:
+  libperl5.22 libseccomp2 perl perl-base perl-modules-5.22
+5 upgraded, 10 newly installed, 0 to remove and 157 not upgraded.
+Need to get 115 MB of archives.
+After this operation, 469 MB of additional disk space will be used.
+Get:1 https://download.docker.com/linux/ubuntu xenial/stable amd64 containerd.io amd64 1.4.6-1 [28.0 MB]
+Get:2 http://archive.ubuntu.com/ubuntu xenial-updates/main amd64 libperl5.22 amd64 5.22.1-9ubuntu0.9 [3360 kB]
+Get:3 https://download.docker.com/linux/ubuntu xenial/stable amd64 docker-ce-cli amd64 5:20.10.7~3-0~ubuntu-xenial [41.1 MB]
+Get:4 http://archive.ubuntu.com/ubuntu xenial-updates/main amd64 perl amd64 5.22.1-9ubuntu0.9 [237 kB]
+Get:5 http://archive.ubuntu.com/ubuntu xenial-updates/main amd64 perl-base amd64 5.22.1-9ubuntu0.9 [1287 kB]
+Get:6 https://download.docker.com/linux/ubuntu xenial/stable amd64 docker-ce amd64 5:20.10.7~3-0~ubuntu-xenial [24.8 MB]
+Get:7 http://archive.ubuntu.com/ubuntu xenial-updates/main amd64 perl-modules-5.22 all 5.22.1-9ubuntu0.9 [2634 kB]
+Get:8 http://archive.ubuntu.com/ubuntu xenial/main amd64 libnfnetlink0 amd64 1.0.1-3 [13.3 kB]
+Get:9 http://archive.ubuntu.com/ubuntu xenial/universe amd64 pigz amd64 2.3.1-2 [61.1 kB]
+Get:10 http://archive.ubuntu.com/ubuntu xenial-updates/main amd64 libseccomp2 amd64 2.5.1-1ubuntu1~16.04.1 [43.2 kB]
+Get:11 http://archive.ubuntu.com/ubuntu xenial-updates/main amd64 libapparmor-perl amd64 2.10.95-0ubuntu2.12 [31.6 kB]
+Get:12 http://archive.ubuntu.com/ubuntu xenial-updates/main amd64 apparmor amd64 2.10.95-0ubuntu2.12 [451 kB]
+Get:13 http://archive.ubuntu.com/ubuntu xenial/main amd64 iptables amd64 1.6.0-2ubuntu3 [266 kB]
+Get:14 https://download.docker.com/linux/ubuntu xenial/stable amd64 docker-ce-rootless-extras amd64 5:20.10.7~3-0~ubuntu-xenial [9052 kB]
+Get:15 https://download.docker.com/linux/ubuntu xenial/stable amd64 docker-scan-plugin amd64 0.8.0~ubuntu-xenial [3889 kB]
+Preconfiguring packages ...
+Fetched 115 MB in 1s (61.8 MB/s)
+(Reading database ... 
+(Reading database ... 5%
+(Reading database ... 10%
+(Reading database ... 15%
+(Reading database ... 20%
+(Reading database ... 25%
+(Reading database ... 30%
+(Reading database ... 35%
+(Reading database ... 40%
+(Reading database ... 45%
+(Reading database ... 50%
+(Reading database ... 55%
+(Reading database ... 60%
+(Reading database ... 65%
+(Reading database ... 70%
+(Reading database ... 75%
+(Reading database ... 80%
+(Reading database ... 85%
+(Reading database ... 90%
+(Reading database ... 95%
+(Reading database ... 100%
+(Reading database ... 31417 files and directories currently installed.)
+Preparing to unpack .../libperl5.22_5.22.1-9ubuntu0.9_amd64.deb ...
+Unpacking libperl5.22:amd64 (5.22.1-9ubuntu0.9) over (5.22.1-9ubuntu0.6) ...
+Preparing to unpack .../perl_5.22.1-9ubuntu0.9_amd64.deb ...
+Unpacking perl (5.22.1-9ubuntu0.9) over (5.22.1-9ubuntu0.6) ...
+Preparing to unpack .../perl-base_5.22.1-9ubuntu0.9_amd64.deb ...
+Unpacking perl-base (5.22.1-9ubuntu0.9) over (5.22.1-9ubuntu0.6) ...
+Processing triggers for man-db (2.7.5-1) ...
+Setting up perl-base (5.22.1-9ubuntu0.9) ...
+(Reading database ... 
+(Reading database ... 5%
+(Reading database ... 10%
+(Reading database ... 15%
+(Reading database ... 20%
+(Reading database ... 25%
+(Reading database ... 30%
+(Reading database ... 35%
+(Reading database ... 40%
+(Reading database ... 45%
+(Reading database ... 50%
+(Reading database ... 55%
+(Reading database ... 60%
+(Reading database ... 65%
+(Reading database ... 70%
+(Reading database ... 75%
+(Reading database ... 80%
+(Reading database ... 85%
+(Reading database ... 90%
+(Reading database ... 95%
+(Reading database ... 100%
+(Reading database ... 31417 files and directories currently installed.)
+Preparing to unpack .../perl-modules-5.22_5.22.1-9ubuntu0.9_all.deb ...
+Unpacking perl-modules-5.22 (5.22.1-9ubuntu0.9) over (5.22.1-9ubuntu0.6) ...
+Selecting previously unselected package libnfnetlink0:amd64.
+Preparing to unpack .../libnfnetlink0_1.0.1-3_amd64.deb ...
+Unpacking libnfnetlink0:amd64 (1.0.1-3) ...
+Selecting previously unselected package pigz.
+Preparing to unpack .../pigz_2.3.1-2_amd64.deb ...
+Unpacking pigz (2.3.1-2) ...
+Preparing to unpack .../libseccomp2_2.5.1-1ubuntu1~16.04.1_amd64.deb ...
+Unpacking libseccomp2:amd64 (2.5.1-1ubuntu1~16.04.1) over (2.3.1-2.1ubuntu2~16.04.1) ...
+Processing triggers for man-db (2.7.5-1) ...
+Processing triggers for libc-bin (2.23-0ubuntu10) ...
+Setting up libseccomp2:amd64 (2.5.1-1ubuntu1~16.04.1) ...
+Processing triggers for libc-bin (2.23-0ubuntu10) ...
+Selecting previously unselected package libapparmor-perl.
+(Reading database ... 
+(Reading database ... 5%
+(Reading database ... 10%
+(Reading database ... 15%
+(Reading database ... 20%
+(Reading database ... 25%
+(Reading database ... 30%
+(Reading database ... 35%
+(Reading database ... 40%
+(Reading database ... 45%
+(Reading database ... 50%
+(Reading database ... 55%
+(Reading database ... 60%
+(Reading database ... 65%
+(Reading database ... 70%
+(Reading database ... 75%
+(Reading database ... 80%
+(Reading database ... 85%
+(Reading database ... 90%
+(Reading database ... 95%
+(Reading database ... 100%
+(Reading database ... 31430 files and directories currently installed.)
+Preparing to unpack .../libapparmor-perl_2.10.95-0ubuntu2.12_amd64.deb ...
+Unpacking libapparmor-perl (2.10.95-0ubuntu2.12) ...
+Selecting previously unselected package apparmor.
+Preparing to unpack .../apparmor_2.10.95-0ubuntu2.12_amd64.deb ...
+Unpacking apparmor (2.10.95-0ubuntu2.12) ...
+Selecting previously unselected package iptables.
+Preparing to unpack .../iptables_1.6.0-2ubuntu3_amd64.deb ...
+Unpacking iptables (1.6.0-2ubuntu3) ...
+Selecting previously unselected package containerd.io.
+Preparing to unpack .../containerd.io_1.4.6-1_amd64.deb ...
+Unpacking containerd.io (1.4.6-1) ...
+Selecting previously unselected package docker-ce-cli.
+Preparing to unpack .../docker-ce-cli_5%3a20.10.7~3-0~ubuntu-xenial_amd64.deb ...
+Unpacking docker-ce-cli (5:20.10.7~3-0~ubuntu-xenial) ...
+Selecting previously unselected package docker-ce.
+Preparing to unpack .../docker-ce_5%3a20.10.7~3-0~ubuntu-xenial_amd64.deb ...
+Unpacking docker-ce (5:20.10.7~3-0~ubuntu-xenial) ...
+Selecting previously unselected package docker-ce-rootless-extras.
+Preparing to unpack .../docker-ce-rootless-extras_5%3a20.10.7~3-0~ubuntu-xenial_amd64.deb ...
+Unpacking docker-ce-rootless-extras (5:20.10.7~3-0~ubuntu-xenial) ...
+Selecting previously unselected package docker-scan-plugin.
+Preparing to unpack .../docker-scan-plugin_0.8.0~ubuntu-xenial_amd64.deb ...
+Unpacking docker-scan-plugin (0.8.0~ubuntu-xenial) ...
+Processing triggers for man-db (2.7.5-1) ...
+Processing triggers for systemd (229-4ubuntu21.8) ...
+Processing triggers for libc-bin (2.23-0ubuntu10) ...
+Setting up perl-modules-5.22 (5.22.1-9ubuntu0.9) ...
+Setting up libperl5.22:amd64 (5.22.1-9ubuntu0.9) ...
+Setting up perl (5.22.1-9ubuntu0.9) ...
+Setting up libnfnetlink0:amd64 (1.0.1-3) ...
+Setting up pigz (2.3.1-2) ...
+Setting up libapparmor-perl (2.10.95-0ubuntu2.12) ...
+Setting up apparmor (2.10.95-0ubuntu2.12) ...
+update-rc.d: warning: start and stop actions are no longer supported; falling back to defaults
+insserv: can not symlink(../init.d/sendsigs, ../rc0.d/K02sendsigs): File exists
+insserv: can not symlink(../init.d/umountnfs.sh, ../rc0.d/K03umountnfs.sh): File exists
+insserv: can not symlink(../init.d/umountfs, ../rc0.d/K05umountfs): File exists
+insserv: can not symlink(../init.d/umountroot, ../rc0.d/K06umountroot): File exists
+insserv: can not symlink(../init.d/halt, ../rc0.d/K07halt): File exists
+insserv: can not symlink(../init.d/ondemand, ../rc2.d/S02ondemand): File exists
+insserv: can not symlink(../init.d/rc.local, ../rc2.d/S02rc.local): File exists
+insserv: can not symlink(../init.d/ondemand, ../rc3.d/S02ondemand): File exists
+insserv: can not symlink(../init.d/rc.local, ../rc3.d/S02rc.local): File exists
+insserv: can not symlink(../init.d/ondemand, ../rc4.d/S02ondemand): File exists
+insserv: can not symlink(../init.d/rc.local, ../rc4.d/S02rc.local): File exists
+insserv: can not symlink(../init.d/ondemand, ../rc5.d/S02ondemand): File exists
+insserv: can not symlink(../init.d/rc.local, ../rc5.d/S02rc.local): File exists
+insserv: can not symlink(../init.d/sendsigs, ../rc6.d/K02sendsigs): File exists
+insserv: can not symlink(../init.d/umountnfs.sh, ../rc6.d/K03umountnfs.sh): File exists
+insserv: can not symlink(../init.d/umountfs, ../rc6.d/K05umountfs): File exists
+insserv: can not symlink(../init.d/umountroot, ../rc6.d/K06umountroot): File exists
+insserv: can not symlink(../init.d/reboot, ../rc6.d/K07reboot): File exists
+insserv: can not symlink(../init.d/bootmisc.sh, ../rcS.d/S10bootmisc.sh): File exists
+insserv: can not symlink(../init.d/mountnfs.sh, ../rcS.d/S08mountnfs.sh): File exists
+insserv: can not symlink(../init.d/mountnfs-bootclean.sh, ../rcS.d/S09mountnfs-bootclean.sh): File exists
+diff: /var/lib/apparmor/profiles/.apparmor.md5sums: No such file or directory
+Setting up iptables (1.6.0-2ubuntu3) ...
+Setting up containerd.io (1.4.6-1) ...
+Setting up docker-ce-cli (5:20.10.7~3-0~ubuntu-xenial) ...
+Setting up docker-ce (5:20.10.7~3-0~ubuntu-xenial) ...
+invoke-rc.d: could not determine current runlevel
+invoke-rc.d: policy-rc.d denied execution of start.
+Setting up docker-ce-rootless-extras (5:20.10.7~3-0~ubuntu-xenial) ...
+Setting up docker-scan-plugin (0.8.0~ubuntu-xenial) ...
+Processing triggers for libc-bin (2.23-0ubuntu10) ...
+Processing triggers for systemd (229-4ubuntu21.8) ...

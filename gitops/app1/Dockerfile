@@ -21,4 +21,4 @@ apt-get update
 apt-cache policy docker-ce
 
 #Install Docker
-apt-get install -y docker-ce
+apt-get install -y docker-ce 

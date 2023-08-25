@@ -10,7 +10,7 @@ spec:
     metadata: 
       labels:
         app: python-sample
-    spec:
+    spec: 
       containers:
       - name: python-sample
         image: kmbeducative/python-sample:1.0

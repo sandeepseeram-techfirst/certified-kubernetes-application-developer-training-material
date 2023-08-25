@@ -26,6 +26,6 @@ resource "azurerm_kubernetes_cluster" "k8s" {
 
   service_principal {
     client_id     = var.id
-    client_secret = var.password
+    client_secret = var.password 
   } 
 }

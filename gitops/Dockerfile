@@ -18,4 +18,4 @@ RUN dotnet publish "LibraryService.csproj" -c Release -o /app/publish -r linux-x
 FROM base AS final
 WORKDIR /app
 COPY --from=publish /app/publish .
-ENTRYPOINT ["dotnet", "LibraryService.dll"]
+ENTRYPOINT ["dotnet", "LibraryService.dll"] 

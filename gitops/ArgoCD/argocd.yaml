@@ -1,0 +1,8 @@
+project: default
+source:
+  repoURL: 'https://github.com/kmbeducative/gitops-educative.git'
+  path: system/infrastructure
+  targetRevision: 02-07-reconcile
+destination:
+  server: 'https://kubernetes.default.svc'
+  namespace: default

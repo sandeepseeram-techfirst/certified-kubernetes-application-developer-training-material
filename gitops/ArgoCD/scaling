@@ -3,3 +3,9 @@ kubectl scale --replicas=4 deployment python-sample-deployment
 
 # Confirm scaled pods
 kubectl get pods
+
+NAME                                        READY   STATUS              RESTARTS   AGE
+python-sample-deployment-6d566644dc-nfxng   1/1     Running             0          2m54s
+python-sample-deployment-6d566644dc-xb6z5   0/1     ContainerCreating   0          2s
+python-sample-deployment-6d566644dc-ztb6t   0/1     ContainerCreating   0          2s
+python-sample-deployment-6d566644dc-xm79b   0/1     ContainerCreating   0          2s

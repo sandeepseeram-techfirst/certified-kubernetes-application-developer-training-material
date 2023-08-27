@@ -7,4 +7,4 @@ SELECT
   State,
   ZipCode
 FROM Customer c
-WHERE c.State = "Pennsylvania";
+WHERE c.State = "Pennsylvania"; 

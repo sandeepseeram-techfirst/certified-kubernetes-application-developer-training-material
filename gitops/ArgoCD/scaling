@@ -1,0 +1,5 @@
+# Scale the pods
+kubectl scale --replicas=4 deployment python-sample-deployment
+
+# Confirm scaled pods
+kubectl get pods

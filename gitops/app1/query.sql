@@ -4,7 +4,7 @@ SELECT
   AddressLine1,
   AddressLine2,
   City,
-  State,
+  State, 
   ZipCode
 FROM Customer c
 WHERE c.State = "Pennsylvania"; 

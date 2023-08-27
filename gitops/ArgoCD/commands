@@ -3,7 +3,7 @@ kubectl get deployments,pods,services
 NAME                                       READY   UP-TO-DATE   AVAILABLE   AGE
 deployment.apps/python-sample-deployment   0/1     1            0           25s
 
-NAME                                            READY   STATUS              RESTARTS   AGE
+NAME                                           READY   STATUS              RESTARTS   AGE
 pod/python-sample-deployment-6d566644dc-nfxng   0/1     ContainerCreating   0          22s
 
 NAME                            TYPE        CLUSTER-IP      EXTERNAL-IP   PORT(S)          AGE

@@ -15,3 +15,12 @@ cd /usercode/system
 git add .
 git commit -m "Increasing the number of replicas"
 git push origin main 
+
+Enumerating objects: 14, done.
+Counting objects: 100% (14/14), done.
+Compressing objects: 100% (11/11), done.
+Writing objects: 100% (14/14), 3.49 KiB | 715.00 KiB/s, done.
+Total 14 (delta 1), reused 0 (delta 0)
+remote: Resolving deltas: 100% (1/1), done.
+To https://github.com/kmbeducative/system.git
+ * [new branch]      main -> main

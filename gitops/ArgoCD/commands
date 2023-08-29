@@ -11,7 +11,7 @@ service/kubernetes              ClusterIP   10.43.0.1       <none>        443/TC
 service/python-sample-service   NodePort    10.43.145.222   <none>        8080:30000/TCP   24s
 
 
-cd /usercode/system
+cd /usercode/system 
 git add . 
 git commit -m "Increasing the number of replicas"
 git push origin main 

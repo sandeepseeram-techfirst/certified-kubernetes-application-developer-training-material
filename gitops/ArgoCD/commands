@@ -12,7 +12,7 @@ service/python-sample-service   NodePort    10.43.145.222   <none>        8080:3
 
 
 cd /usercode/system
-git add .
+git add . 
 git commit -m "Increasing the number of replicas"
 git push origin main 
 

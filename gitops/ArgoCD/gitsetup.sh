@@ -6,7 +6,7 @@ git config --global user.email "seerams@acm.org"
 git config --global user.name "ACM Technologies"
 echo "https://{{GITHUB_USERNAME}}:{{GITHUB_PAT}}@github.com" >> ~/.git-credentials
 git init
-git add .gitignore
+git add .gitignore 
 git commit -m "Lesson started"
 git add .
 git commit -m "Remaining lesson files"

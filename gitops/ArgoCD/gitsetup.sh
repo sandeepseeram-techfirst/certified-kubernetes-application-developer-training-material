@@ -1,4 +1,4 @@
-cd /usercode/system
+cd /usercode/system 
 mv conf .gitignore 
 export GH_TOKEN={{GITHUB_PAT}}
 git config --global credential.helper store 

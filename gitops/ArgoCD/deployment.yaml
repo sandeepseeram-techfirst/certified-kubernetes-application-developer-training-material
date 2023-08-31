@@ -2,7 +2,7 @@ apiVersion: apps/v1
 kind: Deployment
 metadata:
   name: python-sample-deployment
-spec:
+spec: 
   replicas: 3 # increase the number of replicas
   selector: 
     matchLabels:  

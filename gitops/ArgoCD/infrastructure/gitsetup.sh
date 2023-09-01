@@ -46,7 +46,7 @@ git push
 flux create kustomization podinfo \
   --target-namespace=default \
   --source=podinfo \
-  --path="./infrastructure" \
+  --path="./infrastructure" \ 
   --prune=true \
   --interval=15s \
   --export > ./k8s-cluster/podinfo-kustomization.yaml

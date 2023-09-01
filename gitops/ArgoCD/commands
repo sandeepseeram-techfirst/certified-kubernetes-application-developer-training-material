@@ -27,4 +27,4 @@ To https://github.com/kmbeducative/system.git
 
 
 IP=$(kubectl get nodes -o jsonpath='{.items[*].status.addresses[?(@.type=="InternalIP")].address}')
-curl http://$IP:30000/
+curl http://$IP:30000/ 

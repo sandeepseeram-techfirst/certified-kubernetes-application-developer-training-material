@@ -43,3 +43,13 @@ flux create source git podinfo \
 git add -A && git commit -m "Add podinfo GitRepository"
 git push
 
+flux create kustomization podinfo \
+  --target-namespace=default \
+  --source=podinfo \
+  --path="./infrastructure" \
+  --prune=true \
+  --interval=15s \
+  --export > ./k8s-cluster/podinfo-kustomization.yaml
+
+git add -A && git commit -m "Add podinfo GitRepository"
+git push

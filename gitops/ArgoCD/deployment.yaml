@@ -5,7 +5,7 @@ metadata:
 spec: 
   replicas: 3 # increase the number of replicas
   selector: 
-    matchLabels:  
+    matchLabels:   
       app: python-sample  
   template: 
     metadata:

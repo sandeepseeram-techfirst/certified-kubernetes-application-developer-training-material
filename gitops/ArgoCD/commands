@@ -24,7 +24,7 @@ Total 14 (delta 1), reused 0 (delta 0)
 remote: Resolving deltas: 100% (1/1), done.
 To https://github.com/kmbeducative/system.git
  * [new branch]      main -> main
-
+ 
 
 IP=$(kubectl get nodes -o jsonpath='{.items[*].status.addresses[?(@.type=="InternalIP")].address}')
 curl http://$IP:30000/ 

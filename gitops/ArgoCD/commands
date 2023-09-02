@@ -28,3 +28,5 @@ To https://github.com/kmbeducative/system.git
 
 IP=$(kubectl get nodes -o jsonpath='{.items[*].status.addresses[?(@.type=="InternalIP")].address}')
 curl http://$IP:30000/ 
+
+docker run --publish 5000:5000 python-sample:1.0

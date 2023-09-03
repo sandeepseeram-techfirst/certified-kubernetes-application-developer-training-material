@@ -12,7 +12,7 @@ spec:
       labels:
         app: python-sample
     spec:
-      containers:
+      containers: 
       - name: python-sample
         image: kmbeducative/python-sample:1.0
         imagePullPolicy: IfNotPresent

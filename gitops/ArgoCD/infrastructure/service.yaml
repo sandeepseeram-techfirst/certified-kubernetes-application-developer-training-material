@@ -8,5 +8,5 @@ spec:
     app: python-sample # Label pods must match to recieve service traffic
   ports:
     - port: 8080 # Port to recieve service traffic
-      targetPort: 5000 # Port to send traffic to pod
+      targetPort: 5000 # Port to send traffic to pod 
       nodePort: 30000 #Port to recieve traffic on cluster node

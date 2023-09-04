@@ -4,7 +4,7 @@ metadata:
   name: python-sample-deployment
 spec: 
   replicas: 3 # increase the number of replicas
-  selector: 
+  selector:  
     matchLabels:   
       app: python-sample  
   template: 

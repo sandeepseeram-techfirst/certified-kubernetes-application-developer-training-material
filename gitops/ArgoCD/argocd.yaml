@@ -5,4 +5,4 @@ source:
   targetRevision: 02-07-reconcile
 destination:
   server: 'https://kubernetes.default.svc'
-  namespace: default
+  namespace: default 

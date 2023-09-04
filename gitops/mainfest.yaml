@@ -3,4 +3,4 @@ kind: Pod
 metadata:
   name: pricing-app
 spec:
-  # Actual spec will vary per resource. 
+  # Actual spec will vary per resource.

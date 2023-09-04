@@ -15,7 +15,7 @@ spec:
       labels:
         app: pricing-app
     spec: 
-      containers:
+      containers: 
       - name: pricing-app
         image: myregistry.azurecr.io/pricing-app:1.0
         imagePullPolicy: IfNotPresent

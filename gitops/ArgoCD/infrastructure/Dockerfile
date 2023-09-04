@@ -3,7 +3,7 @@ FROM python:3.8-slim-buster
 
 RUN useradd -m seerams
 ENV PATH="/home/seerams/.local/bin:${PATH}"
-USER seerams
+USER seerams 
 
 # Specify the working directory
 WORKDIR /app

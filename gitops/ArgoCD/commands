@@ -29,7 +29,7 @@ To https://github.com/kmbeducative/system.git
 IP=$(kubectl get nodes -o jsonpath='{.items[*].status.addresses[?(@.type=="InternalIP")].address}')
 curl http://$IP:30000/ 
 
-docker run --publish 5000:5000 python-sample:1.0
+docker run --publish 5000:5000 python-sample:1.0 
 
 kubectl cluster-info
 Kubernetes control plane is running at https://0.0.0.0:36279

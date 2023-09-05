@@ -1,6 +1,6 @@
 cd /usercode/system 
 mv conf .gitignore 
-export GH_TOKEN={{GITHUB_PAT}}
+export GH_TOKEN={{GITHUB_PAT}} 
 git config --global credential.helper store 
 git config --global user.email "seerams@acm.org"
 git config --global user.name "ACM Technologies" 

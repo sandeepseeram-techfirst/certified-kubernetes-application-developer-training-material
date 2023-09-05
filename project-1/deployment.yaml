@@ -1,0 +1,20 @@
+apiVersion: apps/v1
+kind: Deployment
+metadata:
+  name: python-sample-deployment
+spec:
+  replicas: 1
+  selector:
+    matchLabels:
+      app: python-sample
+  template:
+    metadata:
+      labels:
+        app: python-sample
+    spec:
+      containers:
+      - name: python-sample
+        image: kmbeducative/python-sample:1.0
+        imagePullPolicy: IfNotPresent
+        ports:
+        - containerPort: 500

@@ -30,3 +30,8 @@ IP=$(kubectl get nodes -o jsonpath='{.items[*].status.addresses[?(@.type=="Inter
 curl http://$IP:30000/ 
 
 docker run --publish 5000:5000 python-sample:1.0
+
+kubectl cluster-info
+Kubernetes control plane is running at https://0.0.0.0:36279
+CoreDNS is running at https://0.0.0.0:36279/api/v1/namespaces/kube-system/services/kube-dns:dns/proxy
+Metrics-server is running at https://0.0.0.0:36279/api/v1/namespaces/kube-system/services/https:metrics-server:/proxy

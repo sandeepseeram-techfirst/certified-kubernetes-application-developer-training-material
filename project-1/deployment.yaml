@@ -6,7 +6,7 @@ spec:
   replicas: 1
   selector:
     matchLabels:
-      app: python-sample
+      app: python-sample 
   template:
     metadata:
       labels:

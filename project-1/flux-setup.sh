@@ -15,7 +15,7 @@ cd /usercode/flux-infra
 
 flux create source git podinfo \
   --url=https://github.com/mabbas123456/system \
-  --branch=main \
+  --branch=main \ 
   --interval=30s \
   --export > ./educative-cluster/podinfo-source.yaml
 

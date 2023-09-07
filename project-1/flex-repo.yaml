@@ -1,6 +1,6 @@
 apiVersion: source.toolkit.fluxcd.io/v1beta2
 kind: GitRepository
-metadata:
+metadata: 
   name: example-source
   namespace: flux-system
 spec:

@@ -1,1 +1,8 @@
 curl -s https://fluxcd.io/install.sh | bash && sh /usercode/gitsetup.sh
+
+ flux create source git example-source \
+    --url=https://github.com/kmbeducative/system \
+    --branch=main \
+    --interval=30s \
+    --namespace=flux-system \
+    --export

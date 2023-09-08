@@ -4,7 +4,7 @@ metadata:
   name: example-source
   namespace: flux-system 
 spec: 
-  interval: 30s 
+  interval: 30s
   url: https://github.com/kmbeducative/system
   ref:
     branch: main

@@ -24,5 +24,5 @@ def querySQL():
   print(table.to_pandas().to_markdown())
 
   client.close()
-  
+   
 querySQL()

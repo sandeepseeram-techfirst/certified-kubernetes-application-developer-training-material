@@ -5,7 +5,7 @@ const database = process.env.INFLUX_DATABASE;
 const token = process.env.INFLUX_TOKEN;
 const host = "https://us-east-1-1.aws.cloud2.influxdata.com";
 
-async function main() {
+async function main() { 
     const client = new InfluxDBClient({host, token})
     const query = `
     SELECT

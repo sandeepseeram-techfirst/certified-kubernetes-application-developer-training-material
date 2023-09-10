@@ -2,7 +2,7 @@ import {InfluxDBClient} from '@influxdata/influxdb3-client'
 import {tableFromArrays} from 'apache-arrow';
 
 const database = process.env.INFLUX_DATABASE;
-const token = process.env.INFLUX_TOKEN;
+const token = process.env.INFLUX_TOKEN; 
 const host = "https://us-east-1-1.aws.cloud2.influxdata.com";
 
 async function main() { 

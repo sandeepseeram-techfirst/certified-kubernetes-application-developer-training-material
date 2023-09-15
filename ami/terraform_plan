@@ -1,0 +1,31 @@
+$ terraform plan
+
+# aws_instance.example[11] will be created
++ resource "aws_instance" "example" {
+    + ami            = "ami-0fb653ca2d3203ac1"
+    + instance_type  = "t2.micro"
+    + (...)
+  }
+
+# aws_instance.example[12] will be created
++ resource "aws_instance" "example" {
+    + ami            = "ami-0fb653ca2d3203ac1"
+    + instance_type  = "t2.micro"
+    + (...)
+  }
+
+# aws_instance.example[13] will be created
++ resource "aws_instance" "example" {
+    + ami            = "ami-0fb653ca2d3203ac1"
+    + instance_type  = "t2.micro"
+    + (...)
+  }
+
+# aws_instance.example[14] will be created
++ resource "aws_instance" "example" {
+    + ami            = "ami-0fb653ca2d3203ac1"
+    + instance_type  = "t2.micro"
+    + (...)
+  }
+
+Plan: 5 to add, 0 to change, 0 to destroy.

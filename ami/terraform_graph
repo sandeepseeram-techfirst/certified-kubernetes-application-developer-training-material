@@ -16,7 +16,7 @@ digraph {
 		  "[root] provider.aws"
 		"[root] meta.count-boundary (EachMode fixup)" ->
 		  "[root] aws_instance.example"
-		"[root] provider.aws (close)" ->
+		"[root] provider.aws (close)" -> 
 		  "[root] aws_instance.example"
 		"[root] root" ->
 		  "[root] meta.count-boundary (EachMode fixup)"

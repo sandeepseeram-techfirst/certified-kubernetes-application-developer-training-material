@@ -6,5 +6,5 @@ resource "aws_instance" "app" {
   user_data = <<-EOF
               #!/bin/bash
               sudo service apache2 start
-              EOF
+              EOF 
 }

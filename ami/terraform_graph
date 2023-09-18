@@ -12,11 +12,11 @@ digraph {
 		  [label = "provider.aws", shape = "diamond"]
 		"[root] aws_instance.example" ->
 		  "[root] aws_security_group.instance"
-		"[root] aws_security_group.instance" ->
+		"[root] aws_security_group.instance" -> 
 		  "[root] provider.aws"
 		"[root] meta.count-boundary (EachMode fixup)" ->
 		  "[root] aws_instance.example"
-		"[root] provider.aws (close)" -> 
+		"[root] provider.aws (close)" ->  
 		  "[root] aws_instance.example"
 		"[root] root" ->
 		  "[root] meta.count-boundary (EachMode fixup)"

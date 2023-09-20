@@ -3,7 +3,7 @@ resource "aws_instance" "app" {
   availability_zone = "us-east-2a"
   ami               = "ami-0fb653ca2d3203ac1"
 
-  user_data = <<-EOF
+  user_data = <<-EOF 
               #!/bin/bash
               sudo service apache2 start
               EOF 

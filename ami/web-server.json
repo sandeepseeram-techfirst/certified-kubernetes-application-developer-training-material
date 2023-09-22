@@ -1,5 +1,5 @@
 {
-    "builders": [{
+    "builders": [{ 
       "ami_name": "packer-example-", 
       "instance_type": "t2.micro",
       "region": "us-east-2",

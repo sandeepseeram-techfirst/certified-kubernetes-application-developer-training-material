@@ -13,7 +13,7 @@ digraph {
 		"[root] aws_instance.example" ->
 		  "[root] aws_security_group.instance"
 		"[root] aws_security_group.instance" -> 
-		  "[root] provider.aws"
+		  "[root] provider.aws" 
 		"[root] meta.count-boundary (EachMode fixup)" ->
 		  "[root] aws_instance.example"
 		"[root] provider.aws (close)" ->  

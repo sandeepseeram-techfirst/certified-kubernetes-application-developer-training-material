@@ -1,6 +1,6 @@
 variable "object_example" {
   description = "An example of a structural type in Terraform"
-  type        = object({
+  type        = object({ 
     name    = string
     age     = number
     tags    = list(string)

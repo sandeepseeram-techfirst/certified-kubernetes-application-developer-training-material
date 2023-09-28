@@ -1,5 +1,5 @@
 resource "aws_security_group" "instance" {
-  name = "terraform-example-instance"
+  name = "terraform-example-instance" 
 
   ingress {
     from_port   = 8080  

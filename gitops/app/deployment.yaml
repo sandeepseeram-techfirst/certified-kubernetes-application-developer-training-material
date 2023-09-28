@@ -3,7 +3,7 @@ kind: Deployment
 metadata:
   name: python-sample-deployment
 spec:
-  selector:
+  selector: 
     matchLabels:
       app: python-sample
   template:

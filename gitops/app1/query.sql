@@ -2,7 +2,7 @@ SELECT
   FirstName,
   LastName,
   AddressLine1,
-  AddressLine2,
+  AddressLine2, 
   City,
   State, 
   ZipCode

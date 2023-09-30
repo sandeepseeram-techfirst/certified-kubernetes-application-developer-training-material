@@ -1,6 +1,6 @@
 $(document).ready(function() {
   $("a.embeddable").each(function(i, link) {
-    $("<div />").load(link.href, function(data, status, xhr) {
+    $("<div />").load(link.href, function(data, status, xhr) { 
       $(link).replaceWith(this);
     });
   });

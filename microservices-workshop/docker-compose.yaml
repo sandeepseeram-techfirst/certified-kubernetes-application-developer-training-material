@@ -37,9 +37,9 @@ services:
     ports:
       - "3001:3001"
     links:
-     - crimson-backend
+     - crimson-backend 
     environment:
-      - SERVER_PORT=3001
+      - SERVER_PORT=3001 
       - lasRestServiceUrl=http://crimson-backend:8080
       - lasRocaUrl=http://${CRIMSON_SERVER:-localhost}:3000
       - ROCA_URL=http://${CRIMSON_SERVER:-localhost}:3000

@@ -46,7 +46,7 @@ services:
   crimson-letter:
     image: educative1/mapi_crimson-assurance-demo_crimson-letter 
     ports:
-      - "3002:3002"
+      - "3002:3002" 
     links:
      - crimson-backend
     environment:

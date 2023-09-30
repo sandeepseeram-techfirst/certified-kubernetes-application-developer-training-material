@@ -3,7 +3,7 @@ services:
   crimson-backend:
     image: educative1/mapi_crimson-assurance-demo_crimson-backend
     ports:
-      - "8080:8080"
+      - "8080:8080" 
     environment:
       - PORT=8080
   crimson-portal:
@@ -38,7 +38,7 @@ services:
       - "3001:3001"
     links:
      - crimson-backend 
-    environment:
+    environment: 
       - SERVER_PORT=3001 
       - lasRestServiceUrl=http://crimson-backend:8080
       - lasRocaUrl=http://${CRIMSON_SERVER:-localhost}:3000

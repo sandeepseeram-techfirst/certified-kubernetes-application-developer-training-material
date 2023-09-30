@@ -1,6 +1,6 @@
 FROM ubuntu:impish
 
-COPY ./code /opt/gowebapp
+COPY ./code /opt/gowebapp 
 COPY ./config /opt/gowebapp/config
 
 EXPOSE 8080

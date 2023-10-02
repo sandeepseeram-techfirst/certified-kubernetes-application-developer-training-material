@@ -5,7 +5,7 @@ backend default {
     .port = "8080";
 }
 
-backend common {
+backend common { 
     .host = "common";
     .port = "8180";
 }

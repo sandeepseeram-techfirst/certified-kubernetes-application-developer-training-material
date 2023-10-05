@@ -9,7 +9,7 @@ services:
   crimson-portal:
     image: educative1/mapi_crimson-assurance-demo_crimson-portal
     ports:
-      - "3000:3000"
+      - "3000:3000" 
     links:
      - crimson-backend
     environment:

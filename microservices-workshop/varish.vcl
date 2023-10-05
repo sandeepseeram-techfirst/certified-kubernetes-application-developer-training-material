@@ -1,7 +1,7 @@
 vcl 4.0;
 
 backend default {
-    .host = "order";
+    .host = "order"; 
     .port = "8080";
 }
 

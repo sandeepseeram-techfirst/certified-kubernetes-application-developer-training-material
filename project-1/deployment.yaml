@@ -8,7 +8,7 @@ spec:
     matchLabels:
       app: python-sample 
   template: 
-    metadata:
+    metadata: 
       labels:
         app: python-sample
     spec:

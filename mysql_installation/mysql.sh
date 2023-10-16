@@ -18,7 +18,7 @@ DELETE FROM mysql.db WHERE Db='test' OR Db='test\_%';
 FLUSH PRIVILEGES;
 EOF
 
-sudo yum install firewalld -y
+sudo yum install firewalld -y 
 sudo service firewalld start
 sudo firewall-cmd --add-service=mysql --permanent
 sudo firewall-cmd --reload

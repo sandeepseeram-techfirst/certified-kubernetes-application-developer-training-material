@@ -10,7 +10,7 @@ echo "<IfModule mod_dir.c>
         DirectoryIndex index.php index.html index.cgi index.pl index.php index.xhtml index.htm
 </IfModule>" | sudo tee /etc/httpd/conf.modules.d/dir.conf
 
-echo "<?php
+echo "<?php 
 phpinfo();
 ?>" | sudo tee /var/www/html/info.php
 sudo systemctl restart httpd

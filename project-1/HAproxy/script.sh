@@ -42,7 +42,7 @@ listen admin
 frontend http
   maxconn 2000
   bind 0.0.0.0:80
-  default_backend servers-http
+  default_backend servers-http 
 backend servers-http" | sudo tee /etc/haproxy/haproxy.cfg
 
 sudo sed -i 's/server host-/#server host-/g' /etc/haproxy/haproxy.cfg

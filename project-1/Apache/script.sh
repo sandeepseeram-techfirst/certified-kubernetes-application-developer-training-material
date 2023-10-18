@@ -1,6 +1,6 @@
 #!/bin/bash
 set -ex
-# -*- Install httpd and php
+# -*- Install httpd and php 
 sudo yum update -y 
 sudo yum -y install epel-release
 sudo rpm -Uvh https://mirror.webtatic.com/yum/el7/webtatic-release.rpm

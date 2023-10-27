@@ -3,7 +3,7 @@ kind: Pod
 metadata:
   name: first-pod
   labels:
-    project: qsk-book
+    project: qsk-book 
 spec:
   containers:
     - name: web-ctr 

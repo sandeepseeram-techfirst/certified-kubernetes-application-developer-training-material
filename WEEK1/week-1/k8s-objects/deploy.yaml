@@ -1,6 +1,6 @@
 apiVersion: apps/v1
 kind: Deployment
-metadata: 
+metadata:  
   name: qsk-deploy 
 spec:
   replicas: 5 

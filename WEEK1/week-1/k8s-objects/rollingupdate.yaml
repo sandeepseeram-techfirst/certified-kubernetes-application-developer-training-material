@@ -4,7 +4,7 @@ metadata:
   name: qsk-deploy
 spec:
   replicas: 5
-  selector:
+  selector: 
     matchLabels:
       project: qsk-book
   minReadySeconds: 20 

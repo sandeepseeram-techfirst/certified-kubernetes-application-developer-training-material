@@ -6,7 +6,7 @@ clientVersion:
   gitTreeState: clean
   gitVersion: v1.18.5
   goVersion: go1.13.9
-  major: "1"
+  major: "1" 
   minor: "18"
   platform: linux/amd64
 

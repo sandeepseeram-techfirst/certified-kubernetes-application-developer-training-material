@@ -1,0 +1,5 @@
+Dockerfile This file is not part of the application. It contains a list of instructions that Docker executes to create the container image (i.e. containerize the application).
+app.js: This is the main application file. It is a Node.js application.
+bootstrap.css: This is a stylesheet template, which determines how the application’s web page will look.
+package.json: This lists the application dependencies.
+views: This is a folder that contains the HTML used to populate the application’s web page.

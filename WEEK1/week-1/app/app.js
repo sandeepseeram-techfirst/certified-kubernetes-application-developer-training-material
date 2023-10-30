@@ -1,6 +1,6 @@
 // Simple node.js web app for demonstrating containerizing apps
 // For quick demo purposes only (not properly maintained)
-'use strict';
+'use strict'; 
  
 var express = require('express'),  
     app = express();

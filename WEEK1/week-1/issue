@@ -1,6 +1,6 @@
 cloud_user@819f19ef422c:~$ kubectl version -o yaml 
 clientVersion:
-  buildDate: "2020-06-26T03:47:41Z"
+  buildDate: "2020-06-26T03:47:41Z" 
   compiler: gc
   gitCommit: e6503f8d8f769ace2f338794c914a96fc335df0f
   gitTreeState: clean

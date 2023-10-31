@@ -10,3 +10,7 @@ clientVersion:
   minor: "18"
   platform: linux/amd64
 
+cloud_user@819f19ef422c:~$ kubectl version --server -o yaml
+Client Version: version.Info{Major:"1", Minor:"18", GitVersion:"v1.18.5", GitCommit:"e6503f8d8f769ace2f338794c914a96fc335df0f", GitTreeState:"clean", BuildDate:"2020-06-26T03:47:41Z", GoVersion:"go1.13.9", Compiler:"gc", Platform:"linux/amd64"}
+Unable to connect to the server: dial tcp: lookup -o: no such host
+cloud_user@819f19ef422c:~$ 

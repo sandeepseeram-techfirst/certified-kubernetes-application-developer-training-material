@@ -1,0 +1,1 @@
+kubectl port-forward nginx 3000:80 

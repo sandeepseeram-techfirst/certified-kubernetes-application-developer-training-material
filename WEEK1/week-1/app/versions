@@ -1,6 +1,6 @@
 clientVersion:
   <Snip>
-  gitVersion: v1.20.0
+  gitVersion: v1.20.0 
   major: "1"
   minor: "20"
   platform: darwin/amd64

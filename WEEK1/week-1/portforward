@@ -1,1 +1,3 @@
 kubectl port-forward nginx 3000:80 
+
+kubectl port-forward --address 0.0.0.0 nginx 3000:80 

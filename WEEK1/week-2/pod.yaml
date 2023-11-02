@@ -6,3 +6,13 @@ spec:
   containers:
   - name: nginx-container
     image: nginx
+
+
+apiVersion: v1
+kind: Pod
+metadata:
+  name: nginx
+spec:
+  containers:
+  - name: nginx-container
+    image: registry.hub.docker.com/library/nginx

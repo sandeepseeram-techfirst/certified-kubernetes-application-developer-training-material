@@ -17,4 +17,4 @@ spec:
   query: 'avg(rate(container_cpu_cfs_throttled_seconds_total{container="server", namespace="podtato-kubectl"}))'
   fetchIntervalSeconds: 10
   range:
-    interval: "30s"
+    interval: "30s" 

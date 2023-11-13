@@ -22,10 +22,10 @@ Reference:                                                        Deployment/pod
 Metrics:                                                          ( current / target )
   "cpu-throttling" on KeptnMetric/cpu-throttling (target value):  30.5 / 5
 Min replicas:                                                     1
-Max replicas:                                                     10
+Max replicas:                                                     10 
 Deployment pods:                                                  10 current / 10 desired
 Conditions:
-  Type            Status  Reason               Message 
+  Type            Status  Reason               Message  
   ----            ------  ------               -------
   AbleToScale     True    ScaleDownStabilized  recent recommendations were higher than current one, applying the highest recent recommendation
   ScalingActive   True    ValidMetricFound     the HPA was able to successfully calculate a replica count from KeptnMetric metric cpu-throttling

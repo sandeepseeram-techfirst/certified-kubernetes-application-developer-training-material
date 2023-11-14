@@ -4,7 +4,7 @@ metadata:
   name: prometheus-provider
   namespace: podtato-kubectl
 spec:
-  type: prometheus  
+  type: prometheus   
   targetServer: <your-metrics-provider-server>
 ---
 apiVersion: metrics.keptn.sh/v1beta1 

@@ -3,7 +3,7 @@ kind: HorizontalPodAutoscaler
 metadata:
   name: podtato-hpa
   namespace: podtato-kubectl
-spec:
+spec: 
   scaleTargetRef:
     apiVersion: apps/v1
     kind: Deployment

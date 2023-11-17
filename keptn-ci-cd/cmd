@@ -38,7 +38,7 @@ Events:
   Normal  SuccessfulRescale  6m3s (x4 over 16h)   horizontal-pod-autoscaler  New size: 10; reason: KeptnMetric metric cpu-throttling above target
 
  
-
+ 
  
 
 

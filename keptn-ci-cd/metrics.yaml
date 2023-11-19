@@ -1,5 +1,5 @@
 apiVersion: metrics.keptn.sh/v1beta1 
-kind: KeptnMetricsProvider 
+kind: KeptnMetricsProvider  
 metadata:
   name: prometheus-provider
   namespace: podtato-kubectl 

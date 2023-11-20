@@ -37,11 +37,7 @@ Events:
   Normal  SuccessfulRescale  6m18s                horizontal-pod-autoscaler  New size: 7; reason: KeptnMetric metric cpu-throttling above target
   Normal  SuccessfulRescale  6m3s (x4 over 16h)   horizontal-pod-autoscaler  New size: 10; reason: KeptnMetric metric cpu-throttling above target
 
-
  
-  
-
-
 
 $ kubectl get pods -n podtato-kubectl
 NAME                                      READY   STATUS    RESTARTS   AGE

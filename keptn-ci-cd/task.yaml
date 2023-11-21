@@ -4,7 +4,7 @@ metadata:
   name: runhelloworld1
 spec:
   taskDefinition: helloworldtask
-  context:
+  context: 
     appName: "my-app"
     appVersion: "1.0.0"
     objectType: ""

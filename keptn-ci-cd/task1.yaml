@@ -9,5 +9,5 @@ spec:
     appVersion: "1.0.1" 
     objectType: ""
     taskType: ""
-    workloadName: "my-workload"
+    workloadName: "my-workload" 
     workloadVersion: "1.0.1"

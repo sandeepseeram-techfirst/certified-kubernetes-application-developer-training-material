@@ -1,7 +1,7 @@
 apiVersion: lifecycle.keptn.sh/v1alpha3
 kind: KeptnTask
 metadata:
-  name: runhelloworld1 
+  name: runhelloworld1  
 spec:
   taskDefinition: helloworldtask 
   context: 

@@ -1,7 +1,7 @@
 #!/bin/bash
 
 yarn test:ui
-test_outcome=$?
+test_outcome=$? 
 mv ./app /deploy-app
 
 if [[ $test_outcome -ne 0 ]]; then

@@ -61,7 +61,7 @@ ignore:
   'snyk:lic:golang:github.com:hashicorp:memberlist:MPL-2.0': 
     - '*':
         reason: this license is fine for keptn
-        created: 2022-07-21T07:14:53.099Z
+        created: 2022-07-21T07:14:53.099Z 
   'snyk:lic:golang:github.com:hashicorp:serf:MPL-2.0':
     - '*':
         reason: this license is fine for keptn

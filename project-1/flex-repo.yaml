@@ -7,4 +7,4 @@ spec:
   interval: 30s
   url: https://github.com/kmbeducative/system
   ref:
-    branch: main 
+    branch: main  

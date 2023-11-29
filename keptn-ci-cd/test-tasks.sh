@@ -1,5 +1,5 @@
 #!/bin/bash
-
+ 
 yarn test:ui
 test_outcome=$? 
 mv ./app /deploy-app

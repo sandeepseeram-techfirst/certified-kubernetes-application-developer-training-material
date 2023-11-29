@@ -6,4 +6,4 @@ mv ./app /deploy-app
 
 if [[ $test_outcome -ne 0 ]]; then
   exit 1
-fi
+fi 

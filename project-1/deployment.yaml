@@ -10,7 +10,7 @@ spec:
   template: 
     metadata: 
       labels:
-        app: python-sample
+        app: python-sample 
     spec:
       containers:
       - name: python-sample

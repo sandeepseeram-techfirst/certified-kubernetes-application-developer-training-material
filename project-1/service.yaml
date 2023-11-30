@@ -9,4 +9,4 @@ spec:
   ports:
     - port: 8080 # Port to receive service traffic
       targetPort: 5000 # Port to send traffic to pod
-      nodePort: 30000 # Port to receive traffic on cluster node 
+      nodePort: 30000 # Port to receive traffic on cluster node  

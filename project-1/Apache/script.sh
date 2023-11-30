@@ -11,7 +11,7 @@ echo "<IfModule mod_dir.c>
 </IfModule>" | sudo tee /etc/httpd/conf.modules.d/dir.conf
 
 echo "<?php 
-phpinfo();
+phpinfo(); 
 ?>" | sudo tee /var/www/html/info.php
 sudo systemctl restart httpd
 sudo systemctl enable httpd

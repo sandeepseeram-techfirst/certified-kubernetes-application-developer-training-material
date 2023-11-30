@@ -17,7 +17,7 @@ function mine() {
     let nonce = 0;
 
     let block = {
-        id: blocks.length,
+        id: blocks.length, 
         transactions,
         nonce
     }

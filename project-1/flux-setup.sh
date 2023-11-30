@@ -12,7 +12,7 @@ flux bootstrap github \
 git clone https://github.com/$GITHUB_USER/flux-infra
 
 cd /usercode/flux-infra
-
+ 
 flux create source git podinfo \
   --url=https://github.com/mabbas123456/system \
   --branch=main \ 

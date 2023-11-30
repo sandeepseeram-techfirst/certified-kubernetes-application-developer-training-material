@@ -9,5 +9,5 @@ spec:
   prune: true
   sourceRef:
     kind: GitRepository
-    name: example-source
+    name: example-source 
   targetNamespace: default 

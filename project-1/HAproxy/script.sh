@@ -39,7 +39,7 @@ listen admin
   bind 127.0.0.1:22002
   mode http
   stats uri /
-frontend http
+frontend http 
   maxconn 2000
   bind 0.0.0.0:80  
   default_backend servers-http 

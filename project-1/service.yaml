@@ -4,7 +4,7 @@ metadata:
   name: python-sample-service 
 spec:
   type: NodePort
-  selector:
+  selector: 
     app: python-sample # Label pods must match to receive service traffic
   ports:
     - port: 8080 # Port to receive service traffic

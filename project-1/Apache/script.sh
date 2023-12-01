@@ -4,7 +4,7 @@ set -ex
 sudo yum update -y 
 sudo yum -y install epel-release
 sudo rpm -Uvh https://mirror.webtatic.com/yum/el7/webtatic-release.rpm
-sudo yum install -y httpd php56w php56w-mysql
+sudo yum install -y httpd php56w php56w-mysql 
 
 echo "<IfModule mod_dir.c>
         DirectoryIndex index.php index.html index.cgi index.pl index.php index.xhtml index.htm

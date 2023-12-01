@@ -1,7 +1,7 @@
 apiVersion: skaffold/v2beta22
 kind: Config
 build:
-  local:
+  local: 
     useBuildkit: true
   artifacts:
     - image: ghcr.io/keptn/lighthouse-service

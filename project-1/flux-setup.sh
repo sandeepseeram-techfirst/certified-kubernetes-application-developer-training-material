@@ -7,7 +7,7 @@ flux bootstrap github \
   --repository=flux-infra \
   --branch=main \
   --path=./educative-cluster \
-  --personal
+  --personal 
 
 git clone https://github.com/$GITHUB_USER/flux-infra
 
